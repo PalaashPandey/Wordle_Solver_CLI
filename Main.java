@@ -46,7 +46,7 @@ public class Main {
     String suffix = "";
     if (pos == 1) { suffix = "st"; }
     else if (pos == 2) { suffix = "nd"; }
-    else if (pos == 1) { suffix = "rd"; }
+    else if (pos == 3) { suffix = "rd"; }
     else { suffix = "th"; }
     return "Enter the " + pos + suffix + " position (1-5) from the left of a " + color + " character (-1 for none): ";
   }
